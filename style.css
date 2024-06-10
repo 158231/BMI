@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&family=Signika+Negative:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Signika Negative", sans-serif;
+}
+body{
+    background-color: lightseagreen;
+}
+.box1{
+    height: 75vh; /*vh means viewport height*/
+    width: 25vw; /*vw means viewport width*/
+    background-color: lightcoral;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 5px;
+
+
+
+}
+.box1>h1{
+    margin-bottom: 50px;
+}
+label{
+    font-size: 30px;
+    margin-top: 30px;
+}
+input{
+    width: 80%;
+    margin-top: 30px;
+    height: 50px;
+    font-size: 24px;
+}
+button{
+    width: 80%;
+    background-color: black;
+    color: white;
+    margin-top: 70px;
+    height: 50px;
+}
+#calculate{
+    height: 40px;
+    width: 60%;
+    padding: 10px;
+    background-color: aliceblue;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    box-shadow: 5px 5px 10px 3px blue;
+
+}
+#calculate:hover{
+    background-color: greenyellow;
+    box-shadow: 5px 5px 10px 3px red;    
+    cursor: pointer;
+}
